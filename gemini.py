@@ -8,5 +8,5 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 try:
     response = model.generate_content(sys.argv[1])
     print(f"\n-----End of Warning Messages-----\n\n{response.text}")
-except IndexError:
+except (IndexError, TypeError):
     print("Pass in the query after the command!!!")
