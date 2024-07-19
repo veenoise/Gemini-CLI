@@ -47,3 +47,7 @@ source ~/.bashrc
 ```bash
 gemini "Hello, Gemini! Tell me about yourself."
 ```
+
+## Screenshots
+
+![App Screenshot](https://i.ibb.co/gj148FF/image.png)
